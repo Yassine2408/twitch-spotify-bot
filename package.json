@@ -1,0 +1,19 @@
+{
+  "name": "twitch-spotify-bot",
+  "version": "1.0.0",
+  "description": "A Twitch bot that plays Spotify songs via channel points redemption.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "spotify-web-api-node": "^5.0.2",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
